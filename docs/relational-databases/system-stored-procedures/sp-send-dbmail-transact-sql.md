@@ -227,7 +227,7 @@ Execute permissions for `sp_send_dbmail` default to all members of the **Databas
 
 ### A. Send an e-mail message
 
-This example sends an e-mail message to your friend using the e-mail address `myfriend@adventure-works.com`. The message has the subject `Automated Success Message`. The body of the message contains the sentence `The stored procedure finished successfully`.
+This example sends an e-mail message to your friend using the e-mail address `yourfriend@adventure-works.com`. The message has the subject `Automated Success Message`. The body of the message contains the sentence `The stored procedure finished successfully`.
 
 ```sql
 EXEC msdb.dbo.sp_send_dbmail
